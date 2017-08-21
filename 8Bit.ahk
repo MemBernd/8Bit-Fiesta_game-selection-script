@@ -8,10 +8,10 @@
    
    timeSleep := 100	;ms
    Array := Object()
-   Array[0] := 0	;Reset all
-   Array[1] := 1	;Road Rage
-   Array[2] := 0	;Trap Run
-   Array[3] := 0 ;Lava Dodge
+   Array[0] := 0 ;Reset all
+   Array[1] := 1 ;Road Rage
+   Array[2] := 0 ;Trap Run
+   Array[3] := 0 ;Lava Dodg
    Array[4] := 1 ;Drop dead
    Array[5] := 1 ;Skull Pop
    Array[6] := 0 ;Duck Hunt
@@ -45,7 +45,7 @@
 		if !element=1
 		{
 			SendInput, {Enter}
-			Sleep, timeSleep1
+			Sleep, timeSleep
 		}
 		if (index == 12 OR index == 19)
 		{
