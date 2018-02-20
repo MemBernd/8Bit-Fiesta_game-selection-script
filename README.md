@@ -11,6 +11,6 @@ It is activated by
 while 8BitFiesta is focused. The pointer hast to be on 'Play', otherwise it won't work correctly.
 
 The .exe file is an already compiled version of the script, though I recommend to compile it by yourself. If you want to change the games to your preference you have to change the values in the array and compile it again.
-if the value is '1', 'enter' isn't pressed. Everything else makes it press enter which toggles the state. 
+if the value is '1', 'enter' isn't pressed (meaning the game stays selected). Everything else makes it press enter which toggles the state. 
 
 
